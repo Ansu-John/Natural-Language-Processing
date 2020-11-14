@@ -1,5 +1,5 @@
 ### OBJECTIVE
-Natural Language Processing or NLP is a field of Artificial Intelligence that gives the machines the ability to read, understand and derive meaning from human languages.
+Natural Language Processing or NLP is a field of Artificial Intelligence that gives the machines the ability to read, understand and derive meaning from human languages. This PoC was done to explore the different NLP options using Python. 
 
 ### DATASET USED
 Dataset is taken from UCI Repository [SMS Spam Detection](https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection)
