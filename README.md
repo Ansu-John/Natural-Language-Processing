@@ -17,8 +17,18 @@ NLTK is the most famous Python NLP library, and it’s led to incredible breakth
 Its modularized structure makes it excellent for learning and exploring NLP concepts, but it’s not meant for production.
 
 ## TextBlob 
-Built on top of NLTK, and it’s more easily-accessible. This is our favorite library for fast-prototyping or building applications that don’t require highly optimized performance.
+TextBlob sits on the mighty shoulders of NLTK and another package called Pattern. This is our favorite library for fast-prototyping or building applications that don’t require highly optimized performance.
 
+TextBlob makes text processing simple by providing an intuitive interface to NLTK. It’s a welcome addition to an already solid lineup of Python NLP libraries because it has a gentle learning curve while boasting a surprising amount of functionality.
+
+By default, the sentiment analyzer is the PatternAnalyzer from the Pattern library. But what if you wanted to use a Naive Bayes analyzer? You can easily swap to a pre-trained implementation from the NLTK library.
+
+```sh
+from textblob import TextBlob
+from textblob.sentiments import NaiveBayesAnalyzer
+opinion = TextBlob("EliteDataScience.com is dope!", analyzer=NaiveBayesAnalyzer())
+opinion.sentiment
+```
 ## CoreNLP
 Stanford’s CoreNLP is a Java library with Python wrappers. It’s in many existing production systems due to its speed.
 ## SpaCy 
