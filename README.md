@@ -2,7 +2,9 @@
 Natural Language Processing or NLP is a field of Artificial Intelligence that gives the machines the ability to read, understand and derive meaning from human languages. This PoC was done to explore the different NLP options using Python. 
 
 ### TOOLS
-Spark, Python - PySpark, NLTK, NaiveBayes, Pipeline, MulticlassClassificationEvaluator and Text manipulations using PySpark
+**SMS Spam Detection:**  Spark, Python - PySpark, NaiveBayes, Pipeline, MulticlassClassificationEvaluator and Text manipulations using PySpark
+**Sentiment Analysis:**  Bag of Words, Naive Bayes Classifier
+**NLTK:** Exploring NLTK https://www.nltk.org/book/
 
 # Natural Language Processing 
 Natural language processing (NLP) is an exciting field in data science and artificial intelligence that deals with teaching computers how to extract meaning from text. In this guide, we’ll be touring the essential stack of Python NLP libraries.
