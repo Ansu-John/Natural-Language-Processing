@@ -1,11 +1,8 @@
 ### OBJECTIVE
 Natural Language Processing or NLP is a field of Artificial Intelligence that gives the machines the ability to read, understand and derive meaning from human languages. This PoC was done to explore the different NLP options using Python. 
 
-### DATASET USED
-Dataset is taken from UCI Repository [SMS Spam Detection](https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection)
-
 ### TOOLS
-Spark, Python - PySpark, NaiveBayes, Pipeline, MulticlassClassificationEvaluator and Text manipulations using PySpark
+Spark, Python - PySpark, NLTK, NaiveBayes, Pipeline, MulticlassClassificationEvaluator and Text manipulations using PySpark
 
 # Natural Language Processing 
 Natural language processing (NLP) is an exciting field in data science and artificial intelligence that deals with teaching computers how to extract meaning from text. In this guide, we’ll be touring the essential stack of Python NLP libraries.
